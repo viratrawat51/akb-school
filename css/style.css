@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 155px;
+  height: 130px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.phone-number {
+  background: #fa6210;
+  color: #fff;
+  font-size: 26px;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-expand-lg .navbar-nav {
+  color: gray;
+  cursor: pointer;
+}
