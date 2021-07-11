@@ -20,9 +20,13 @@ body {
   padding: 7px 20px;
   border-radius: 5px;
 }
-
-.navbar-light .navbar-nav .nav-link {
+.navbar {
+  background: #096db9;
+  margin-top: 13px;
+}
+.navbar .navbar-nav .nav-link {
   color: white;
+  padding: 5px 20px;
 }
 .navbar-expand-lg .navbar-nav {
   color: gray;
