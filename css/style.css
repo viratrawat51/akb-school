@@ -23,6 +23,7 @@ body {
 .navbar {
   background: #096db9;
   margin-top: 13px;
+  margin-bottom: 12px;
 }
 .navbar .navbar-nav .nav-link {
   color: white;
@@ -31,4 +32,7 @@ body {
 .navbar-expand-lg .navbar-nav {
   color: gray;
   cursor: pointer;
+}
+.carousel-inner {
+  height: 600px;
 }
