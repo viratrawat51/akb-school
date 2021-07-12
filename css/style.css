@@ -7,6 +7,11 @@ body {
 
 .row {
   margin: 0;
+  background-color: #fff;
+}
+
+.bg-transparent {
+  background: transparent;
 }
 
 .logo {
@@ -45,6 +50,7 @@ body {
 }
 .principal-message-row {
   background: #f0f0f0;
+  margin-bottom: 43px;
 }
 .principal-message-row > div {
   padding: 15px;
@@ -82,4 +88,52 @@ body {
 .principal-message-row .read-more-btn > button:hover {
   background: #fa6210;
   transition: all 0.3s ease-in-out;
+}
+.col-md-4 .paragraph {
+  color: #fa6210;
+}
+.col-md-4 p {
+  color: gray;
+}
+.btn-parent {
+  text-align: center;
+}
+.btn-primary {
+  background: #003258;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background: #fa6210;
+}
+.image {
+  width: 132px;
+  height: 115px;
+}
+.img-image {
+  width: 204px;
+  margin-left: 104px;
+}
+.news-events > div {
+  text-align: center;
+}
+.img {
+  margin-bottom: 34px;
+}
+.about-us > div {
+  padding-top: 10px;
+}
+.read-more {
+  background: #0d4068;
+  color: #fff;
+  padding: 5px 21px;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.read-more:hover {
+  background: #fa6210;
+}
+.news-letter {
+  margin-top: 10px;
 }
