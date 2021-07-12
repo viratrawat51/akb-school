@@ -2,7 +2,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #f0f0f0;
 }
+
+.row {
+  margin: 0;
+}
+
 .logo {
   width: 155px;
   height: 130px;
@@ -35,4 +41,45 @@ body {
 }
 .carousel-inner {
   height: 600px;
+  margin-bottom: 18px;
+}
+.principal-message-row {
+  background: #f0f0f0;
+}
+.principal-message-row > div {
+  padding: 15px;
+  background-color: #fff;
+  width: 30%;
+}
+
+.principal-message-row > div:not(:last-child) {
+  margin-right: 64px;
+}
+.principal-message-row img {
+  width: 100%;
+  height: 200px;
+}
+.principal-message-row > div > div {
+  background: #fa6210;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin: 10px 0;
+  text-align: center;
+}
+.principal-message-row .read-more-btn {
+  text-align: center;
+  background: white;
+}
+
+.principal-message-row .read-more-btn > button {
+  background: #0d4068;
+  color: #fff;
+  padding: 5px 21px;
+  border: none;
+  border-radius: 4px;
+}
+.principal-message-row .read-more-btn > button:hover {
+  background: #fa6210;
+  transition: all 0.3s ease-in-out;
 }
