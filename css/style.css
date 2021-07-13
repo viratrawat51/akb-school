@@ -98,6 +98,9 @@ body {
 .btn-parent {
   text-align: center;
 }
+.about-us {
+  margin-bottom: 30px;
+}
 .btn-primary {
   background: #003258;
   border: none;
@@ -136,4 +139,45 @@ body {
 }
 .news-letter {
   margin-top: 10px;
+}
+.marquee-container {
+  background-color: #fff;
+  width: 259px;
+  margin-top: 20px;
+}
+.marquee-container h6 {
+  text-align: center;
+}
+.marquee {
+  width: 100%;
+  height: 190px;
+  border: 1px solid green;
+  padding: 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.topper {
+  padding: 20px 0 40px 0;
+  background: url(../asset/images/congr.png);
+}
+.topper h3 {
+  text-align: center;
+}
+.para {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.topper-image {
+  border: black;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.topper-image img {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 168px;
+  height: 150px;
 }
