@@ -51,15 +51,12 @@ body {
 .principal-message-row {
   background: #f0f0f0;
   margin-bottom: 43px;
+  justify-content: space-between;
 }
 .principal-message-row > div {
   padding: 15px;
   background-color: #fff;
   width: 30%;
-}
-
-.principal-message-row > div:not(:last-child) {
-  margin-right: 64px;
 }
 .principal-message-row img {
   width: 100%;
@@ -100,6 +97,8 @@ body {
 }
 .about-us {
   margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 .btn-primary {
   background: #003258;
@@ -137,12 +136,14 @@ body {
 .read-more:hover {
   background: #fa6210;
 }
-.news-letter {
-  margin-top: 10px;
+.news-letter > img {
+  margin-top: 20px;
+  width: 295px;
+  height: 75px;
 }
 .marquee-container {
   background-color: #fff;
-  width: 259px;
+  width: 210px;
   margin-top: 20px;
 }
 .marquee-container h6 {
@@ -162,6 +163,7 @@ body {
   background: url(../asset/images/congr.png);
   margin-bottom: 20px;
   width: 100%;
+  padding-right: 0;
 }
 .topper h3 {
   text-align: center;
@@ -183,7 +185,10 @@ body {
   width: 168px;
   height: 150px;
 }
-
+.marquee-main-row {
+  display: flex;
+  justify-content: space-between;
+}
 /* Please Subscribe My Youtube Channel
 https://www.youtube.com/channel/UC_osRDuNAp1ZZxKckdKlNsw?sub_confirmation=1
 */
@@ -392,13 +397,7 @@ ul.social-footer2 li a {
 .thumbnail-widget li a:hover {
   color: #fa6210;
 }
-.virat {
-  color: #fff;
-  transition: all 0.3s ease-in-out;
-}
-.virat:hover {
-  color: #fa6210;
-}
+
 .footer-row {
   padding: 18px 8px;
 }
@@ -426,4 +425,7 @@ h5.footer-p ~ hr {
 
 .footer-row > hr {
   margin-top: 20px;
+}
+#design-by {
+  color: chartreuse;
 }
