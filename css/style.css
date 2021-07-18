@@ -439,3 +439,26 @@ h5.footer-p ~ hr {
 #design-by {
   color: chartreuse;
 }
+.school-name {
+  color: #fa6210;
+}
+.about-heading {
+  margin-top: 30px;
+}
+.about-heading-2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.about-paragraph-2 {
+  text-align: center;
+}
+.Education {
+  color: #fa6210;
+  text-align: center;
+}
+.text {
+  text-align: center;
+}
+.contact-heading {
+  margin-top: 20px;
+}
