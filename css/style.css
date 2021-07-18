@@ -462,3 +462,26 @@ h5.footer-p ~ hr {
 .contact-heading {
   margin-top: 20px;
 }
+.contact-img {
+  width: 100%;
+}
+#floatingPassword {
+  background: #fdfdfd;
+}
+#floatingInput {
+  background: #fdfdfd;
+}
+#textarea {
+  width: 100%;
+  background: #fdfdfd;
+}
+.contact-button {
+  margin-bottom: 20px;
+  background: #003258;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  border: none;
+}
+.contact-button:hover {
+  background: #fa6210;
+}
