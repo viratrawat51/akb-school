@@ -352,6 +352,9 @@ footer.light .footer-copyright {
   top: -4px;
   width: 50%;
 }
+.textarea {
+  width: 100%;
+}
 .widget-title.text-center span,
 .widget-title.text-center span::after {
   margin-left: auto;
